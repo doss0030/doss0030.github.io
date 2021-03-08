@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assig3-HTML-Forms</title>
+</head>
+<body>
+	<div id="wrapper" class="wrapper">
+		<section id="assig3-HTML-forms" class="main-section">
+			<form action="assig3.php" method="get">
+				<div id="fn-container" class="form-elm">
+					<label for="firstname">First Name</label>
+					<input type="text" name="firstname" id="firstname" placeholder="First Name here">
+					<div id=ln-container class="form-elm">
+					<label for="lastname">Last Name</label>
+					<input type="text" name="lastname" id="lastname" placeholder="Last Name here">
+				</div>
+				<div id="email-container" class="form-elm">
+					<label for="email">Email Id</label>
+					<input type="email" name="email id" id="email" Value="emailid@email.com" placeholder="emailid@email.com">
+				</div>
+				<div id="password-container" class="form-elm">
+					<label for="password">Password</label>
+					<input type="password" name="pass" id="password" required>
+				</div>
+
+				<div id="introductory-container" class="form-elm">
+					<label for="introductory">Introductory Text </label>
+					<textarea name="introductory" id="introductory" placeholder="Enter introduction here">Enter introduction here
+					</textarea><br></div>
+				<div>
+				<label for="dte">Date of Birth</label>
+					<input type="date" name="dte" id="dte"><br>	
+				<label for="mobile-number">Mobile Number</label>
+				<input type="text" name="mobile-number" id="mobile-number" placeholder="111-222-3344"><br>
+				</div>
+				<div id="radio-container" class="form-elm">
+					<h3>Gender</h3>
+					<label for="gender">
+						<input type="radio" name="form-elm" id="gender" value="male" checked>
+						Male
+					</label>
+					<label for="gender">
+						<input type="radio" name="form-elm" id="gender" value="female">
+						Female
+					</label>
+
+					<label for="gender">
+					<input type="radio" name="form-elm" id="gender" value="other">
+						Other
+					</label>
+				</div>
+				<div id="address-container" class="form-elm">
+					<label for="address">Address</label>
+					<input type="text" name="address" id="address" placeholder="Address here">
+				</div>
+				<div id="city-container" class="form-elm">
+					<label for="city">City</label>
+					<input type="text" name="city" id="city" placeholder="City here">
+				</div>
+				<div id="province-container" class="form-elm">
+					<label for="province">Province:</label>
+					<select name="province" id="province">
+						<option value="ontario">Ontario</option>
+						<option value="quebec">Quebec</option>
+						<option value="britishcolumbia">British Columbia</option>
+						<option value="novascocia">Nova Scocia</option>
+					</select>
+				</div>
+				<div id="country-container" class="form-elm">
+					<label for="country">Country:</label>
+					<select name="country" id="country">
+						<option value="canada">Canada</option>
+						<option value="usa">USA</option>
+						<option value="france">France</option>
+						<option value="brazil" selected>Brazil</option>
+					</select>
+				</div>
+				<div id="postalcode-container" class="form-elm">
+					<label for="postalcode">Postal Code</label>
+					<input type="text" name="postalcode" id="postalcode" placeholder="A1B A1B">
+				</div>
+				<div id="hobbies-container" class="form-elm">
+					<h3>Hobbies/Interests:</h3>
+					<label for="running">Running</label>
+					<input type="checkbox" name="hobbies" id="running" value="running"><br>
+
+					<label for="dancing">Dancing</label>
+					<input type="checkbox" name="hobbies" id="dancing" value="dancing"> <br>
+
+					<label for="singing">Singing</label>
+					<input type="checkbox" name="hobbies" id="singing" value="singing"> <br>
+
+					<label for="hiking">Hiking</label>
+					<input type="checkbox" name="hobbies" id="hiking" value="hiking"> <br>
+				</div>
+				<div id="st-container" class="form-elm">
+					<label for="ur">Website:</label>	
+					<input type="url" name="ur" id="ur" ><br>
+				</div>
+					<button type="submit">Submit</button>
+					<button type="reset">Reset</button>
+			</form>
+		</section>
+</body>
+</html>
