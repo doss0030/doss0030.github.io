@@ -1,0 +1,134 @@
+ /*http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer,
+header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0
+
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS clearfix*/
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: table;
+	
+}
+/*start styling here*/
+
+/* Header styles */ 
+header {
+	
+	background-color: #7cc576;
+	width: 100%;
+	box-sizing: border-box;
+
+}
+
+.logo {
+	float: left;
+	padding: 15px;
+	box-sizing: border-box;
+	background: #7cc576;
+	/*box-sizing: border-box;*/
+	/*box-sizing border box makes the width adjust according to padding*/
+}
+.main-nav-container{
+	padding: 10px;
+	display: block;
+
+}
+.main-nav-container li {
+	width: 25%;
+	float: left;
+	background: #6dcff6;
+	padding: 10px;
+	display: block;
+	box-sizing: 100%: border-box;
+}
+
+
+.main-section-container main {
+	width: 64%;
+	float: left;
+	padding: 10px;
+	display: block;
+	box-sizing: 100%: border-box;
+
+}
+
+.aside  {
+	width: 36%;
+	float: right;
+	padding: 10px;
+	display: block;
+	box-sizing: 100%: border-box;
+	background-image:
+}
+
+.article  {
+	width: 50%;
+	float: center;
+	padding: 10px;
+	display: block;
+	box-sizing: 100%: border-box 33%;
+
+}
+footer {
+	background: #7cc576;
+	padding: 10px;
+	width: 100%;
+	float: center;
+	display: block;
+	box-sizing: 100%: border-box;
+}
+
+.footer-nav li {
+	float: right;
+
+}
