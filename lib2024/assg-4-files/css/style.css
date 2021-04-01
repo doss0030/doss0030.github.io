@@ -85,11 +85,11 @@ header {
 }
 .main-nav-container li {
 	width: 25%;
-	float: left;
+	float: right;
 	background: #6dcff6;
 	padding: 10px;
-	display: block;
-	box-sizing: 100%: border-box;
+	display: inline-block;
+	box-sizing: : border-box;
 }
 
 
@@ -97,31 +97,40 @@ header {
 	width: 64%;
 	float: left;
 	padding: 10px;
-	display: block;
+	display: inline-block;
 	box-sizing: 100%: border-box;
 
 }
+
+
 
 .aside  {
 	width: 36%;
 	float: right;
 	padding: 10px;
-	display: block;
+	display: inline-block;
 	box-sizing: 100%: border-box;
-	background-image:
+	background-image: url(https://www.toptal.com/designers/subtlepatterns/white-waves-pattern/);
+
 }
 
-.article  {
-	width: 50%;
+.article {
+	width: 100%;
 	float: center;
 	padding: 10px;
-	display: block;
+	display: center-block;
 	box-sizing: 100%: border-box 33%;
 
 }
+
+img {
+	float: center;	
+	width: 33,33%;
+}
+
+
 footer {
 	background: #7cc576;
-	padding: 10px;
 	width: 100%;
 	float: center;
 	display: block;
