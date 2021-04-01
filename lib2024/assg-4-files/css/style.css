@@ -88,7 +88,7 @@ header {
 	float: right;
 	background: #6dcff6;
 	padding: 10px;
-	display: inline-block;
+	display: block;
 	box-sizing: : border-box;
 }
 
@@ -97,18 +97,16 @@ header {
 	width: 64%;
 	float: left;
 	padding: 10px;
-	display: inline-block;
+	display: block;
 	box-sizing: 100%: border-box;
 
 }
-
-
 
 .aside  {
 	width: 36%;
 	float: right;
 	padding: 10px;
-	display: inline-block;
+	display: block;
 	box-sizing: 100%: border-box;
 	background-image: url(https://www.toptal.com/designers/subtlepatterns/white-waves-pattern/);
 
