@@ -63,17 +63,14 @@ table {
 
     /* COLOR PALETE*/
 
-    /* MOBILE FIRST*/
-
-
-
 
 
 .desktop.nav {
 	float: right;
-	width: calc(100% - 100px)
+	width: calc(100% - 100px);
 	display: none;
 	max-width: 600px
+	color: #72a9ae;
 
 }
 
@@ -84,9 +81,9 @@ table {
 
 .desktop.nav li {
 	box-sizing: border-box;
-	width: 20%
+	width: 20%;
 	float: center;
-	background:
+	background: #72a9ae:
 
 }
 
@@ -98,30 +95,18 @@ table {
 
 }
 
-.ham {
+.main-section h2, p { 
+	float: left;	
+	margin: auto;
+	background-image: url("img/houndstooth-pattern.pnj")
+	
+	 }
+
+.aside img {
+	width: 30%;
 	float: right;
-	position: absolute;
-
-}
-
-.mobile-nav {
-	width: 100%;
-	clear: both;
-
-}
-
-.mobile-nav-container {
-	position: relative;
-	clear: both;
-
-}
-
-.mobile-nav li {
-	box-sizing: border-box;
-	width: 100%;
-	padding: 10px;
-	background:
-	border-botton: 2px;
+	margin: auto;
+	background-image: url("img/houndstooth-pattern.pnj")
 
 }
 
@@ -130,6 +115,7 @@ table {
 header, main, footer {
 	max-width: 1280px;
 	margin: auto;
+	background-image: url("img/houndstooth-pattern.pnj")
 
 }
 
@@ -146,4 +132,12 @@ p {
 i.fab {
 	color:blue;
 	font-size: 24px;
+}
+
+footer {
+	background: #454545;
+	width: 100%;
+	float: center;
+	display: block;
+	box-sizing: 100%: border-box;
 }
